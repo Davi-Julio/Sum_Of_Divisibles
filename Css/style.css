@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto+Condensed:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 30vw;
+    height: 5vh;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#btn {
+    background-color: #000;
+    color: #fff;
+    font-weight: 8000;
+    cursor: pointer;
+}
